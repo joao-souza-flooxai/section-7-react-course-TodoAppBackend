@@ -13,8 +13,8 @@ export default function Menu(props){
 
                 <div id='navbar' className='navbar-collapse collapse'>
                     <ul className="nav navbar-nav">
-                        <li><a href='#/todos'>Tarefas</a></li>
-                        <li><a href="#/about">Sobre</a></li>
+                        <li><a href='#/todos'>Task</a></li>
+                        <li><a href="#/about">About</a></li>
                     </ul>
                 </div>
             </div>
