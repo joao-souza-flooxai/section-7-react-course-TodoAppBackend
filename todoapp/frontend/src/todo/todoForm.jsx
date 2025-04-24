@@ -16,7 +16,18 @@ export default function TodoForm(props){
             </Grid>
 
             <Grid cols="12 3 2">
-                <IconButtons style="primary" icon="plus" onClick={props.handleAdd}></IconButtons>
+                <IconButtons 
+                    style="primary" 
+                    icon="plus" 
+                    onClick={props.handleAdd}>
+
+                </IconButtons>
+                
+                <IconButtons 
+                    style='info' 
+                    icon='search' 
+                    onClick={props.handleSearch}>
+                </IconButtons>
             </Grid>
 
         </div>
