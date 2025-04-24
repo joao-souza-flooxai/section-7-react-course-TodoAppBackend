@@ -22,12 +22,19 @@ export default function TodoForm(props){
                     onClick={props.handleAdd}>
 
                 </IconButtons>
-                
+
                 <IconButtons 
                     style='info' 
                     icon='search' 
                     onClick={props.handleSearch}>
                 </IconButtons>
+
+                <IconButtons
+                    style="default"
+                    icon="close"
+                    onClick={props.handleClear}
+                ></IconButtons>
+
             </Grid>
 
         </div>

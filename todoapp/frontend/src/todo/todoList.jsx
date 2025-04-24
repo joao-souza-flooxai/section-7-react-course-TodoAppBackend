@@ -34,7 +34,7 @@ export default function TodoList(props){
 
     return (
         <table className='table'>
-            <thead>
+            <thead className='tableActions'>
                 <tr>
                     <th>Description</th>
                     <th>Actions</th>
